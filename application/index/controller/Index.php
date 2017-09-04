@@ -20,4 +20,7 @@ class Index extends Controller
     public function hello($name='world',$city='shanghai' ){
         return 'hello'.$name.'!'.$city;
     }
+    public function wxtest(){
+       echo input("get.echostr");
+    }
 }
